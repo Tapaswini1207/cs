@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Case Study</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo"><!--img src="" alt=""-->Logo</div>
+      <nav>
+        <div class="menu-toggle" id="mobile-view">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">About <i class="fa fa-angle-down"></i></a>
+            <!--ul class="dropdown-content">
+                <li><a href="#">Carrer</a></li>
+            </ul-->
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="right-menu">
+          <form class="search-box">
+            <input type="text" name="" placeholder="Search">
+            <!--button type="submit" class="search-button">Search</button-->
+          </form>
+          <div class="notification-icon"><i class="fa fa-bell"></i></div>
+
+          <div class="profile-container">
+            <div class="profile-icon">
+              <div class="circle">DR</div>
+
+              <div class="logout-option">
+                <a href="#">Profile</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="banner">
+    <div class="text-box">
+      <button class="buttonone">Order Summary: Orders#1 Billed Amount# 2500$</button>
+      <button class="buttontwo">Order 1</button>
+    </div>
+    <div class="text-box">
+      <button class="buttonone">Order Summary: Orders#2 Billed Amount# 2500$</button>
+      <button class="buttontwo">Order 2</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="left-section">
+      <button class="button-active">Product</button>
+      <button class="button-active">Review</button>
+      <button class="button">Payment</button>
+      <button class="button">Summary</button>
+    </div>
+    <div class="right-section">
+      <div class="form-container">
+        <form>
+          <h3>Review:</h3>
+          <p class="">Review the selected products and modify <button class="btne" type="submit">Edit</button></p>
+          <div class="">
+            <span onclick="str(1)" class="star">★
+            </span>
+            <span onclick="str(2)" class="star">★
+            </span>
+            <span onclick="str(3)" class="star">★
+            </span>
+            <span onclick="str(4)" class="star">★
+            </span>
+            <span onclick="str(5)" class="star">★
+            </span>
+          </div>
+          <div class="form-group">
+            <label for="review">Your Review:</label>
+            <textarea id="review" name="review" rows="4" placeholder="Your Review"></textarea>
+          </div>
+          <h2>Your Info:</h2>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+          </div>
+          <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" placeholder="City" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+          </div>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+      <div>
+       
+        <button class="prvs-buttons"> <a href="product.html">Previous</a></button>
+      
+      <button class="next-buttons"><a href="payment.html">Next</a></button>
+    </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
